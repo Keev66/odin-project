@@ -1,0 +1,61 @@
+.button{
+    background-color: #0000ff;
+    color: white;
+    padding:10px ;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
+    transition: background-color 0.3s ease,transform 0.3s ease;
+
+}
+.button:hover{
+    background-color: green;
+    transform: scale(1.1);
+}
+button:clicked{
+    transform: scale(0.85);
+}
+
+
+
+
+
+
+.dropdown-container {
+    max-width: 250px;
+    margin: 40px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+
+  }
+  .menu-title:hover{
+    background: rgb(47, 46, 46);;  
+    opacity: 0.9;
+}
+  
+  .menu-title {
+    background-color: rgb(134, 132, 132);
+    opacity: 1;
+  }
+  
+  .dropdown-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(99, 97, 97);
+    
+    display: none;
+  }
+  .dropdown-menu:clicked{
+    
+  }
+  
+  ul.dropdown-menu li:hover {
+    background: rgb(219, 56, 56);
+  }
+  
+  .visible {
+    display: block;
+  }
